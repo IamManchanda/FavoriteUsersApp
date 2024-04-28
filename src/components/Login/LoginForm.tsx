@@ -29,7 +29,7 @@ const LoginForm: React.FC<LoginFormProps> = ({ navigation }) => {
 
   const handleLogin = () => {
     if (email === CONFIG.LOGIN_EMAIL && password === CONFIG.LOGIN_PASSWORD) {
-      navigation.navigate("Dashboard");
+      navigation.replace("Dashboard");
     } else {
       alert("Invalid credentials");
     }

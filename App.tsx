@@ -26,7 +26,6 @@ function App() {
             name="Dashboard"
             component={DashboardScreen}
             options={{
-              headerLeft: () => null,
               headerTitleAlign: "center",
               headerTitle: DashboardHeaderTitle,
             }}
